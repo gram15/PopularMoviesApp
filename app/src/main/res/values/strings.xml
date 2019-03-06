@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PopularMoviesApp</string>
+
+    <!--menu -->
+    <string name="menu_sortby_most_popular">Most Popular</string>
+    <string name="menu_sortby_top_rated">Top Rated</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_sortby">Sort By</string>
+
+    <!--movie details-->
+    <string name="movie_empty_title">Select a movie</string>
+    <string name="movie_overview_title">Overview</string>
+    <string name="movie_release_date_title">Released:</string>
+    <string name="movie_rating_title">Rating:</string>
+    <string name="error_internet_connection">No internet connection. Try again later.</string>
+    <string name="error_service">Service GetMovieList fails</string>
+    <string name="error_empty_favorite_list">Empty favorite movie list</string>
+    <string name="reviews">Reviews</string>
+    <string name="trailers">Trailers</string>
+    <string name="trailer">Trailer %d</string>
+
+
+    <!--buttons -->
+    <string name="mark_favorite">Mark as favorite</string>
+    <string name="mark_unfavorite">Mark unfavorite</string>
+
+    <!--toast messagges-->
+    <string name="mark_favorite_message">Added to favourites</string>
+    <string name="mark_unfavorite_message">Removed from favourites</string>
+
+
+
+</resources>
+
+
+

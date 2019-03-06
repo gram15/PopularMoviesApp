@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context="com.uproject.am.popularmoviesapp.activities.MovieListActivity">
+
+    <fragment
+        android:id="@+id/movie_list_fragment"
+        android:name="com.uproject.am.popularmoviesapp.fragments.MovieListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_movie_list" />
+
+    <fragment
+        android:id="@+id/movie_details_fragment"
+        android:name="com.uproject.am.popularmoviesapp.fragments.MovieDetailsFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        tools:layout="@layout/fragment_movie_details" />
+
+</LinearLayout>

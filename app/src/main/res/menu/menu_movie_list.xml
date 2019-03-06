@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="@string/menu_sortby"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/menu_sort_by"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_by_most_popular"
+                    android:checked="true"
+                    android:title="@string/menu_sortby_most_popular" />
+                <item
+                    android:id="@+id/sort_by_top_rated"
+                    android:title="@string/menu_sortby_top_rated" />
+                <item
+                    android:id="@+id/favorites"
+                    android:title="@string/menu_favorites" />
+
+
+            </group>
+        </menu>
+    </item>
+</menu>
